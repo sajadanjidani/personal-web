@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'dana black';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/public/font/dana\ black.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana bold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(/public/font/dana\ bold.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana demibold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/public/font/dana\ demibold.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana extrabold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(/public/font/dana\ extrabold.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana extralight';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/public/font/dana\ extralight.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana light';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/public/font/dana\ light.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana medium';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/public/font/dana\ medium.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana regular';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(/public/font/dana\ regular.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'dana thin';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(/public/font/dana\ thin.woff) format('woff');
+  }
+}
+
+@layer components {
+  .word {
+    @apply inline-block invisible transition-all duration-300 ease-in-out;
+  }
+}
